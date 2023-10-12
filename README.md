@@ -12,8 +12,9 @@ http_status_code = { version = "1" }
 Then, you can use it in code, like:
 ```rust
 fn main() {
-    let _ = http_status_code::OK;
-    let _ = http_status_code::Forbidden;
+    // Note: All constants are u16
+    let _a: u16 = http_status_code::OK;
+    let _b: u16 = http_status_code::Forbidden;
 }
 ```
 
