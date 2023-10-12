@@ -13,8 +13,8 @@
 //! Then, you can use it in code, like:
 //! ```rust
 //! // Note: All constants are u16
-//! let _ = http_status_code::OK;
-//! let _ = http_status_code::Forbidden;
+//! let _ = rhttp_status_code::OK;
+//! let _ = rhttp_status_code::Forbidden;
 //! ```
 //!
 
