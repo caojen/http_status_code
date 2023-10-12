@@ -13,6 +13,7 @@
 //! Then, you can use it in code, like:
 //! ```rust
 //! let _ = http_status_code::OK;
+//! let _ = http_status_code::Forbidden;
 //! ```
 //!
 
