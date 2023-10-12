@@ -1,5 +1,5 @@
 [package]
-name = "http_status_code"
+name = "rhttp_status_code"
 version = "1.0.0"
 edition = "2021"
 description = "RFC9110 HTTP Status Code"
@@ -7,8 +7,9 @@ license = "MIT"
 repository = "https://github.com/caojen/http_status_code"
 resolver = "1"
 keywords = [
-    "http_status_code",
-    "rfc9110"
+    "http",
+    "rfc9110",
+    "status_code"
 ]
 readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
